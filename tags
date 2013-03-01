@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+EMBED	GaragePythons.c	/^#define EMBED /;"	d	file:
+EXTRACT	GaragePythons.c	/^#define EXTRACT /;"	d	file:
+abitStreamToBytes	taskOne.h	/^unsigned char *abitStreamToBytes(char *bitStream) {$/;"	f
+bitStreamToBytes	taskFour.h	/^void bitStreamToBytes(unsigned char *bitStream, unsigned long bsLength, unsigned char *bytes) {$/;"	f
+bool	taskThree.h	/^typedef int bool;$/;"	t
+bytesToBitStream	taskOne.h	/^unsigned char *bytesToBitStream(char *bytes, unsigned int bytesLength) {$/;"	f
+f5Decode	taskFour.h	/^void f5Decode(unsigned char *payload_bytes,unsigned long *permutation, unsigned long length,struct jpeg_decompress_struct cinfo_in,jvirt_barray_ptr *DCT_blocks) {$/;"	f
+f5Embed	taskThree.h	/^void f5Embed(unsigned char *bitStream, unsigned long bitStreamLength, unsigned long *permutation, unsigned long permutationLength, struct jpeg_decompress_struct cinfo_in, jvirt_barray_ptr *DCT_blocks) {$/;"	f
+false	taskThree.h	/^#define false /;"	d
+getPermutation	taskTwo.h	/^unsigned long *getPermutation(unsigned char *keyhash,unsigned long length) {$/;"	f
+main	GaragePythons.c	/^void main(int argc, char **argv)$/;"	f
+permutationGenerator	taskTwo.h	/^unsigned long *permutationGenerator(unsigned long *permutation, unsigned char *keyhash, unsigned long length) {$/;"	f
+rand_int	taskTwo.h	/^static unsigned long rand_int(unsigned long n) {$/;"	f
+true	taskThree.h	/^#define true /;"	d
